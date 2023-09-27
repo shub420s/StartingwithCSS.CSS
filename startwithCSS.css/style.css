@@ -1,0 +1,23 @@
+.form-section{
+    background-color: #ebe2ea;
+    opacity: 0.7;
+    padding: 20px;
+}
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section button{
+    background-color: #dbbaba;
+    color: #ad390b;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+}
+.form-section h2{
+    color: #420627;
+}
+.button_ _ text{
+    color: green;
+}
+.button_ _disabled{
+    text-decoration: solid;
+}

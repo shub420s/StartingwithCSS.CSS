@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --accent-color:#ffc107;
+            --background-color: #f8f9fa;
+            --text-color:#333
+        }
+        .Tony{
+            color:rgb(39, 214, 156);
+        }
+        #Avanger{
+            color:rgb(235, 222, 49);
+        }
+        /*
+        .Stark{
+            text-decoration: line-through;
+        }
+        */
+        .Thor{
+            text-transform: uppercase;
+        }
+        .Hulk{
+            text-decoration: underline;
+        }
+        .DoctorStrange{
+            text-transform: lowercase;
+        }
+        .Hulk{
+            background-color: rgb(209, 36, 102);
+        }
+        #Avanger{
+            background-color: blueviolet;
+        }
+        .SheHulk{
+            background-color: var(--primary-color);
+            color: var(--text-color);
+        }
+        .Loki{
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+        }
+        .NickFury{
+            background-color: var(--accent-color);
+            color: var(--text-color);
+        }
+    </style
+</head>
+<body>
+    <div class="Tony">
+    question is 
+        what happens when you target the same elements with inline, internal, and external CSS.
+    </div>
+    <div id="Avanger"; class="Ironmen">
+        It goes with priority order 
+    </div>
+    <div style="background-color: rgb(187, 134, 19); width: 160px;" class="Stark">
+        priority order is 
+        Inline>Internal>External
+    </div>
+   <div class="MARVELSTUDIOS">
+    <p class="Thor">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci eum assumenda consectetur a aliquam animi ut facilis ullam doloribus maxime, qui repudiandae expedita perferendis voluptas blanditiis labore et libero iste quas ea distinctio sunt. Cupiditate iste animi numquam? Hic sunt repellat consequuntur eveniet eligendi facilis impedit! Repellendus magni assumenda sequi, corporis consectetur aliquid, accusamus illum, ex commodi eos ipsum cum dolores eum enim cupiditate quasi sunt delectus beatae asperiores eligendi libero veritatis impedit? Nihil, sunt? Rerum dolor, ipsa nemo harum modi quasi numquam porro quibusdam dolorem animi atque consequuntur voluptatum quo veritatis dignissimos, possimus quas, iusto officia deleniti sed facere.
+    </p>
+    <p class="Hulk">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque eaque, facilis officia corrupti veniam, iure alias eum sint optio pariatur ex dolorem quos minus accusamus. Id, iure! Ratione fuga explicabo optio alias illo fugiat quidem beatae, doloribus earum quis repudiandae non eum voluptatibus voluptate consequatur dolor! Eum veritatis nisi dicta blanditiis fugiat impedit quae ipsum itaque error aut. Dicta ullam facere dolor doloremque ipsa expedita ad unde incidunt, nulla placeat libero qui quisquam sapiente quasi perspiciatis reprehenderit sed iusto neque veritatis deleniti commodi veniam cumque recusandae. Ipsa, debitis explicabo dolore corporis facilis eveniet aliquam ad non, qui distinctio itaque?
+    </p>
+    <p class="DoctorStrange">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni alias quis aliquid magnam sunt iusto, dignissimos temporibus optio esse inventore natus enim? Possimus a repellendus consequuntur culpa minus corporis iste rem, sunt alias, corrupti non officia. Enim sapiente similique, eum quis ex distinctio, exercitationem minus nihil ipsum nostrum quasi repellendus.
+    </p>
+    <p class="SheHulk">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum commodi repellendus incidunt facere earum modi perspiciatis magnam reiciendis quasi tempora velit temporibus, laborum facilis dolorum praesentium! Quibusdam odio architecto eaque recusandae in, dicta beatae quo! Alias unde voluptatibus laudantium, recusandae cumque fugiat harum veritatis, tempora pariatur at odit. Aliquid quisquam veritatis neque nemo modi aliquam reiciendis, officia consectetur eum animi consequatur porro saepe vero id eaque quas nisi adipisci suscipit officiis facere placeat non culpa?
+    </p>
+    <p class="Loki">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi harum consequuntur eaque reprehenderit tenetur, minus blanditiis, assumenda dolor sunt maxime asperiores. Unde id quos atque, culpa reprehenderit numquam eum dignissimos quidem non, eos amet. Delectus architecto rem itaque, nobis eum et quae voluptatem, perferendis similique id vero! Sapiente cumque blanditiis optio atque similique cum saepe voluptatum voluptas magnam, alias ipsam culpa odit ad, vitae maiores excepturi. Aliquid, quo corrupti repellat sint quibusdam non quis recusandae.
+    </p>
+    <p class="NickFury">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero ratione iure impedit corrupti aperiam incidunt. Voluptatum amet velit quia, facilis eaque magni quaerat autem nobis provident voluptatem odio eius inventore corrupti qui nam corporis sequi illo cum culpa eligendi! Animi omnis eum soluta amet modi voluptatibus totam unde nostrum neque maxime repellendus aliquid nemo deleniti blanditiis, natus tempora similique non delectus nisi ipsam sint voluptatum porro atque. Officiis, assumenda! Error totam est quisquam beatae accusantium.
+    </p>
+    <!-- HTML Markup following BEM convention -->
+<div class="button"> <!-- Block -->
+    <span class="button__text">Click Me</span> <!-- Element -->
+    <button class="button_action button_action--primary"> <!-- Element with Modifier -->
+    Submit
+    </button>
+</div>
+    <h2>
+    <ol>
+        <li>
+            <h4>BLOCK:
+                <ul>Block name: 'button'
+                Explanation: The 'button' class represents the main block or component. It's a standalone element that encapsulates everything related to the 'button'</ul>
+            </h4>
+        </li>
+        <li>
+            <h4>ELEMENT:
+                <ul>Element name: 'button__text'
+            Explanation: The 'button__text' class represents an element within the 'button' block. It's used to style the text inside the 'button'. The double underscore (_) indicates that it's an element of the 'MARVELSTUDIOS' block.</ul>
+            </h4>
+        </li>
+        <li>
+            <h4>Element with Modifier:
+                <ul>Element name: 'button__action'
+            Modifier name: 'button__action--primary'
+            Explanation: The 'button__action' class represents an element within the 'button' block, and the 'button_action--primary' class is a modifier that indicates a primary action button style. It's used to distinguish the primary action button from other variations. The double dash ('--') separates the modifier from the element.</ul>
+            </h4>
+        </li>
+    </ol></h2>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Opacity Example</title>
+</head>
+<body>
+    <div class="form-section">
+        <h2>content information</h2>
+        <form>
+        <label for="name">name</label> 
+        <input type="text" id="name" name="name">
+
+        <label for="email">email</label> 
+        <input type="email" id="email" name="email">
+
+        <button type"submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>
